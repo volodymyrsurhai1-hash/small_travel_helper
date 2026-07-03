@@ -1,0 +1,31 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="requests" />
+          <option value="BS4" />
+          <option value="APScheduler" />
+          <option value="aiogram" />
+          <option value="dotenv" />
+          <option value="pytz" />
+          <option value="aiofiles" />
+          <option value="ccxt" />
+          <option value="playwright" />
+          <option value="Pillow" />
+          <option value="pybit" />
+          <option value="pyth" />
+          <option value="telebot" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="dict.*" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
