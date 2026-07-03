@@ -12,4 +12,6 @@ services:
     volumes:
       # Монтуємо код для Hot Reload під час розробки
       - .:/app
+      # Ізолюємо локальне віртуальне середовище .venv від Linux-контейнера
+      - /app/.venv
     restart: unless-stopped
